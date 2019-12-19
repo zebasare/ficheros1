@@ -6,5 +6,7 @@ texto="Vamos Vamos Penarol ,\n Hoy te vinimos a alentar,\n Para ser campeon , \n
 fichero=open("penarol.txt","w")
 fichero.write(texto) 
 fichero.close()
+del(fichero)
+
 
 
