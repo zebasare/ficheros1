@@ -45,6 +45,15 @@ print("")
 for idx,lin in enumerate(lineas): 
   print(idx+1,lin)
 
+#################################################################################################
+#Otro metodo para leer linea por linea 
+print("")
+with open("penarol.txt","r") as lineas: 
+  print(type(lineas)) #devuelve la clase
+  print(lineas) #Devuelve la clase y detalles del objeto ? averiguar 
+  #No es una lista, pero lo estoy indexando con enumerate
+  for idx,linea in enumerate(lineas): 
+    print(idx," ",linea)
 
 
 
