@@ -18,3 +18,22 @@ print(texto)
 
 del(fichero)
 del(texto)
+
+fichero=open("penarol.txt","r")
+#readlines() lee cada linea y la guarda como elemento de una lista
+texto=fichero.readlines()
+
+
+print("")
+
+for idx,line in enumerate(texto): 
+  print("Linea ",idx+1,"=> ",line)
+
+
+
+
+
+
+
+
+
